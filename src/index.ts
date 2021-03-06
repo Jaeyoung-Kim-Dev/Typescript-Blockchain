@@ -71,15 +71,22 @@ const createNewBlock = (data: string): Block => {
 
 console.log(createNewBlock('Hi'), createNewBlock('Bye'));
 
-const isBlockValid = (candidateBlock: Block, previousBlock: Block): boolean => {
-  return (
-    Block.validateStructure(candidateBlock) &&
-    Block.validateStructure(previousBlock) &&
-    candidateBlock.previousHash === previousBlock.hash
+const getHashforBlock = (aBlock: Block): string =>
+  Block.caculateBlockHash(
+    aBlock.index,
+    aBlock.previousHash,
+    aBlock.timestamp,
+    aBlock.data
   );
-};
 
-console.log(isBlockValid(blockchain[2], blockchain[0]));
+const isBlockValid = (candidateBlock: Block, previousBlock: Block): boolean =>
+  Block.validateStructure(candidateBlock) &&
+  Block.validateStructure(previousBlock) &&
+  candidateBlock.index - 1 === previousBlock.index &&
+  candidateBlock.previousHash === previousBlock.hash &&
+  candidateBlock.hash === getHashforBlock(candidateBlock);
+
+console.log(isBlockValid(blockchain[1], blockchain[0]));
 // console.log(blockchain);
 
 export {};
