@@ -1,4 +1,4 @@
-# Typescript-Blockchain
+<h1 align="center">Welcome to Typescript Blockchain 👋</h1>
 
 ### About
 
@@ -13,3 +13,13 @@ It is a simple application of the basic concept of blockchain and includes vario
 3. To compile and run a Typescript file, run the next command.
    `npm start`
 4. Check the blockchain results in Terminal. Four valid blocks are displayed.
+
+## Author
+
+👤 **Jaeyoung Kim**
+
+- Website: https://www.jaeyoungkim.ca/
+- Github: [@jaeyoung-kim-dev](https://github.com/jaeyoung-kim-dev)
+- LinkedIn: [@jaeyoung-kim-dev](https://www.linkedin.com/in/jaeyoung-kim-dev/)
+- Medium(Blog): [@jaeyoung-kim-dev](https://jaeyoung-kim-dev.medium.com/)
+- Email: jaeyong.kim.dev@gmail.com
