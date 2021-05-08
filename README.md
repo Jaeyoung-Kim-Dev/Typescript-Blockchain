@@ -5,7 +5,7 @@
 > My first Typescript by making a Blockchain with it.
 It is a simple application of the basic concept of blockchain and includes various validation.
 
-### How to run this program?
+## How to run this program?
 
 1. Download the master branch or clone the git repository.
 2. To install node modules, run the next command.
