@@ -1,8 +1,8 @@
 <h1 align="center">Welcome to Typescript Blockchain 👋</h1>
 
-### About
+## What project is it?
 
-My first Typescript by making a Blockchain with it.
+> My first Typescript by making a Blockchain with it.
 It is a simple application of the basic concept of blockchain and includes various validation.
 
 ### How to run this program?
